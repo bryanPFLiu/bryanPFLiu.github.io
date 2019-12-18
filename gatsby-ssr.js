@@ -7,7 +7,7 @@ require("dotenv").config();
 
 import getPageContext from "./src/getPageContext";
 import createStore from "./src/state/store";
-import theme from "./src/styles/theme";
+import theme from "./src/styles/new-theme";
 
 exports.replaceRenderer = ({ bodyComponent, replaceBodyHTMLString, setHeadComponents }) => {
   const pageContext = getPageContext();

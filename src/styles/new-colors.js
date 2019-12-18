@@ -3,8 +3,8 @@ module.exports = {
   white: "#ffffff",
   accent: "#709425",
   bright: "#cccccc",
-  dark: "#333333",
-  gray: "#555555",
+  dark: "#ffffff",
+  gray: "#ffffff",
   lightGray: "#bbbbbb",
   superLightGray: "#dedede"
 };

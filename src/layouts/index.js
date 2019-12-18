@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 
 import withRoot from "../withRoot";
 
-import theme from "../styles/theme";
+import theme from "../styles/new-theme";
 import globals from "../styles/globals";
 
 import { setFontSizeIncrease, setIsWideScreen } from "../state/store";
@@ -163,7 +163,6 @@ export const guery = graphql`
           }
           frontmatter {
             title
-            menuTitle
           }
         }
       }

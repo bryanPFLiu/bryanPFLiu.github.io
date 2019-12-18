@@ -23,7 +23,7 @@ const PostComments = props => {
         <Comments
           href={`${config.siteUrl}${slug}`}
           width="100%"
-          colorScheme={props.theme.main.colors.fbCommentsColorscheme}
+          colorScheme="dark"
         />
       </FacebookProvider>
     </div>

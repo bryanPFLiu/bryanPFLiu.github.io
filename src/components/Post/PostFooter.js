@@ -4,7 +4,7 @@ import injectSheet from "react-jss";
 require("core-js/fn/array/find");
 
 import asyncComponent from "../common/AsyncComponent/";
-import PostAuthor from "./PostAuthor";
+// import PostAuthor from "./PostAuthor";
 import PostComments from "./PostComments";
 
 const styles = theme => ({
@@ -26,11 +26,11 @@ const PostShare = asyncComponent(() =>
     .catch(error => {})
 );
 
-const PostFooter = ({ classes, author, post, slug, facebook }) => {
+const PostFooter = ({ classes, post, slug, facebook }) => {
   return (
     <footer className={classes.footer}>
       <PostShare post={post} slug={slug} />
-      <PostAuthor author={author} />
+
       <PostComments post={post} slug={slug} facebook={facebook} />
     </footer>
   );
@@ -38,7 +38,6 @@ const PostFooter = ({ classes, author, post, slug, facebook }) => {
 
 PostFooter.propTypes = {
   classes: PropTypes.object.isRequired,
-  author: PropTypes.object.isRequired,
   post: PropTypes.object.isRequired,
   slug: PropTypes.string.isRequired,
   facebook: PropTypes.object.isRequired
