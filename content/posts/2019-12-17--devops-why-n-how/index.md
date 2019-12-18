@@ -43,7 +43,7 @@ DevOps 有太多的定義比如：<a href="https://zh.wikipedia.org/wiki/DevOps"
 
 # 如何開始？
 
-實踐方法除了Agile的mindset, Scrum process或是DevOps Handbooks中提到的三步工法等，<mark>但我更想用技術方面的實做來闡述所需相關的能力。</mark> 這些數位化的改革中，工作模式改變最大的就非QA莫屬了，所以從如何"align QA jobs to DevOps" 的角度來看，其實更能看出開發團隊要在何處施力才更能達到DevOps的境界。
+實踐方法除了Agile的mindset, Scrum process或是DevOps Handbooks中提到的三步工法等，<mark>但我更想用技術方面的實做來闡述所需相關的能力</mark>。這些數位化的改革中，工作模式改變最大的就非QA莫屬了，所以從如何"align QA jobs to DevOps" 的角度來看，其實更能看出開發團隊要在何處施力才更能達到DevOps的境界。
 
 那為何說QA的工作方式有最大的改變呢？ 因為在非Continuous Delivery 的交付模式中，一定會有幾天的code freeze，這段時間就是拿來讓QA做整合測試的時間，也唯有QA sign off的交付才能被佈署至生產線。
 想想如果要做到每天一次或多次生產線的交付，那麼生產的流水線當中，其實已經沒有QA能手動測式的空檔了... 所以這些QA的角色可能會消失，但有關質量的工作事項卻只會更多且散落在各個開發的週期中（詳見『測試在DevOps中的樣子』章節），也正是所謂的測試左移或右移。
@@ -63,6 +63,8 @@ DevOps 有太多的定義比如：<a href="https://zh.wikipedia.org/wiki/DevOps"
   - Low Risk Deployment
   - Testing in Production
   - Application Observability (O11y)
+
+待續，持續更新中 ...
 
 # Reference
 
