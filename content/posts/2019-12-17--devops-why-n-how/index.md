@@ -4,7 +4,6 @@ subTitle: DevOps Why & How
 cover: Shfit_left_right-cover.png
 category: devops
 ---
-# DevOps十年了，你，想改變了嗎
 
 ## 何謂 DevOps
 
