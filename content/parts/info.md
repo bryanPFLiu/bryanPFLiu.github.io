@@ -2,4 +2,4 @@
 title: info
 ---
 
-I am a SW developer, DevOps evangelist and test automation engineer.
+I am a SW developer, DevOps and test automation evangelist.

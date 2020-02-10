@@ -8,6 +8,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "develop-host": "gatsby develop --host 192.168.0.112",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "format-output": "prettier src/**/*.{js,jsx}",
@@ -29,6 +30,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.10.0",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.13.7",
     "sharp-cli": "^1.7.0",
     "webpack-bundle-analyzer": ">=3.3.2"
