@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[PersonalBlog - a blog for DevOps and Test Automation]]></title><description><![CDATA[PersonalBlog for DevOps and Test Automation.]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 10 Feb 2020 05:24:29 GMT</lastBuildDate><item><title><![CDATA[DevOps十年了，你，想改變了嗎？]]></title><description><![CDATA[DevOps十年了，你，想改變了嗎 何謂 DevOps DevOps 有太多的定義比如： Wikipedia 、 Google Cloud ，這些都表達得很好，但我更喜歡從開發（CI/CD）的角度來講這件事，比如： Continuous Delivery is the…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/devops-why-n-how/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/devops-why-n-how/</guid><content:encoded>&lt;h1&gt;DevOps十年了，你，想改變了嗎&lt;/h1&gt;
+&lt;h2&gt;何謂 DevOps&lt;/h2&gt;
+&lt;p&gt;DevOps 有太多的定義比如：&lt;a href=&quot;https://zh.wikipedia.org/wiki/DevOps&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt;、&lt;a href=&quot;https://cloud.google.com/devops/&quot; target=&quot;_blank&quot;&gt;Google Cloud&lt;/a&gt;，這些都表達得很好，但我更喜歡從開發（CI/CD）的角度來講這件事，比如：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Continuous Delivery is the ability to get changes of all types … into production, or into the hands of users, safely and quickly in a sustainable way. … We achieve all this by ensuring our code is always in a deployable state … thus completely eliminate the integration, testing and hardening phases … as well as code freezes. ~ &lt;a href=&quot;https://continuousdelivery.com/&quot; target=&quot;_blank&quot;&gt; Continuous Delivery&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;要完成這樣的轉變（digital transformation）, 當中包含了不同類別的各項技能之養成&lt;a href=&quot;https://cloud.google.com/devops/#devops-capabilities&quot; target=&quot;_blank&quot;&gt; DevOps capabilities&lt;/a&gt; ，但是在這之前，最難的還是要讓團隊了解及接受改變的必要…&lt;/p&gt;
+&lt;h2&gt;為何改變是必需的？&lt;/h2&gt;
+&lt;p&gt;好了，的確有另一些方法可以讓（軟體）開發更快、品質更好、更穩定等等。但我們現也做得不錯，也是能夠固定時間交付客戶所需要的功能，那我還需要改變嗎？？ 這邊就提到了持續改善的重要性，拿Uber&lt;a href=&quot;#ref1&quot;&gt;[1]&lt;/a&gt;來說，它的商業模式並沒有太多改變，但其架構每兩年就大改一次，這改變不外乎是為了架構能容易擴展（scale out）及&lt;mark&gt;當團隊快速增長時還能維持一樣的開發效率&lt;/mark&gt;。企業的起起落落，尤其是IT產業，當改變是被迫時，往往競爭者已攻城掠地，這時改變是壓力很大的，相反的，隨時都能持續改善，反而可以享受著指標數字隨著做為改變而不斷改進的成就感，兩者相差甚巨！&lt;/p&gt;
+&lt;p&gt;當初 IBM 及微軟內部第一次在推動 DevOps 改造時就是發生在協作軟件的部門（Lotus Notes and MS Office），也正是 Google 的 Gmail[2] 等快速地被企業及個人採用後，兩家公司發現當他們還在以每季度在更新軟件時，Google 卻是每天都能更版甚至使用 A/B Testing 的方法在快速反應使用者的回饋。 結果是 MS Office 轉型後且上了雲端似乎帶來更好的結果，但 IBM 卻退出了企業協作軟件的市場 …。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;快速變動的行業裡，大家早就應該了解到，沒有改變的風險跟改變本身的風險是一樣高的！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;從十年前的第一場DevOpsDays, Belgium, 2009，到傳統軟體公司想改變時已經是將近五年後的事，但在DevOps滿十年後的今天，你，想要變了嗎？當共享軟体當道，商業模式容易被複製，只要灑錢暫時也能雇用到不錯的工程師，所以長遠來看，企業的差異性與競爭力大概就只剩下企業文化與效率。&lt;/p&gt;
+&lt;h3&gt;企業文化&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/why_n_how_of_devOps_culture-4ace58463c9867f32252f8f101dab538-21213.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAADnklEQVQozwGTA2z8AMvRydDWzdbd1drg2d3l3+Dp5eLr5+Pr5+Pq4+Tr5ubt6evw6+nu6enu6Obq5eLm4Nzh2tfb1MzPx8XIwgDT187b3tXg5N3l6uXj49rj1sji0sLk4Njs8vDw9PHg5uXFz9DR2dnV29re49/a4NvV29TIzsnP0srOz8cA2dzS4ePY5+vl2M/D0qmQ47mi5bqi3raV5N3U+f395unotb/EnayzoK20oa6zs76/pbG0i5ugwMbB19jPANze1eXm3eTn3qCCd7qAaOO1n+O5p7uRfMOnlPXy8dvf4a65vrbBxrK9wbbBw7jBw6u3uMvRzeHi2dbXzwDe39Xm597n6t+Ea2aWZlyZcWeldmyLZF2ldV/hxr3b4+ewub67xcmxvMCfrLK9xsavubrR1dLj5NvZ2tEA3d7V6evg2tfQYkhKdVBLjWFWrnZqw42AuIJl6M27ytbcpLC3tb/EmqmwmaeupK+0yM/O8PDp4OLa293VAN3f1ufp3uHe13BHSFguK51dUIFNSopXUrh/Yuvc0Obr7622u7fAxLfAxbzDx6+4u8/U0uvs5eTk3N3d1gDf4Nbp6d34+/Hn2c9zUlF5RDiMVkeWYVG6hmLt4dj+///f4+Tc4OHc4OHX2trR1tTb3trq6+Tj5Nve3dUA09jQvsfEmaSoipCTZV9fZz82jVtHiFNHpX5sr7rBsL/K1N/j6vLy9/r4///8+/z27/Dq6Oni4+Pa3t3UADpIYAUcPgEKJgAAFggNHqKamraLds6riOPEoZyWjxU6WxhBZitMbEtqhXGMnrbCx+vt5ubm3+Ph193b0gAYHjkABykEGDsFHkICIEefnKK9i3PQoX7MnnnUmXd3Z28DMFsFJ00BIUoAHEgdPV7Y3Njl5dze3NHZ180AHCM9AAwuAxY6AAkvMkBUvJJ1eUc6g1hKh1NDa0E6mm5iLkhhACVSByRLBiVNFSxN1dvY5ebf29vS2NbNAB0mQAAHKBcwVHNsb7aIYY5hRi8fIg4HFmtHSFY0NoBXQtKvhWFobgkkRwARNgILJHuAhcvJwru5srm3sQAXHjcEFjjL2OPz4NV0UUdzcnoZHyoAAABVVWHPx8poV1l2WE2Va1J6fH02SGQAACATEylIODo6KjBQRUsAKjNMIzNP4OPmoKaoc3h8io6RISMmDw8TKy81bW5yioqMq6itTD9KbHF83OLnHTVWEShNNjlFS0JDV1NYvF4nevH2E2MAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;why n how of devOps culture&quot;
+        title=&quot;&quot;
+        src=&quot;/static/why_n_how_of_devOps_culture-4ace58463c9867f32252f8f101dab538-21213.png&quot;
+        srcset=&quot;/static/why_n_how_of_devOps_culture-4ace58463c9867f32252f8f101dab538-ab9c0.png 200w,
+/static/why_n_how_of_devOps_culture-4ace58463c9867f32252f8f101dab538-21213.png 400w&quot;
+        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;文化將策略當早餐吃掉了（指的是一個企業的文化，將左右其營運管理上的策略。），而快速變化的今天，沒人能預測未來將面臨的所有挑戰，而文化就會像一盞燈指引你走出這些黑暗的隧道。 就像亞馬遜所說：『在客戶體驗方面，我們已經設置了非常高的門檻，並且有著異乎尋常的不斷改進的緊迫感。』因此，『我們要基於長遠創造更好的客戶體驗』、『持續改善以強化其心血。』。&lt;/p&gt;
+&lt;p&gt;又如 Netflix創辦人Reed Hastings在2009年釋出的 Netflix Culture Deck ，它在 SlideShare 點閱率超過 19,000,000 次，被奉為影響矽谷二十世紀最重要的文件之一，之後其它公司無不公開其企業文化以借此吸引對文化認同之員工及用以過濾跟本身企業不合之應徵者。 文件中有太多對於我們這樣的IT或創意產業所應該有的企業用人留才之策略與認知，也點出了IT產業既無土地，也無廠房，有的只有人，既然只有人那文化的重要性就可見一般了！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;文化沒有對錯，但卻是讓一家公司在其認知的價值上深耕並做出差異化的必要手段。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;文化的重要性，這邊再說個故事：&lt;/p&gt;
+&lt;p&gt;之於開發團隊，這些著名IT公司的文化中，不外乎一定有的像是：efficiency, risk taking, high performance, seeking excellence…，而這些不就是整個 DevOps 所一直在強調的事嗎？講到 DevOps 有關組織文化的部份，通常就會提到組織學習和安全文化：&lt;/p&gt;
+&lt;h4&gt;學習型組織（Learning Organization）：&lt;/h4&gt;
+&lt;p&gt;持續學習應該也用不著我綴述，但很多公司表面上都提倡這樣的文化，但實際上並沒有積極地去創造一個有利的環境或實質上地支持這類的活動。 如何實踐跟評估組織的學習文化呢？這邊寫得很棒也夠簡單明瞭 &lt;a href=&quot;https://cloud.google.com/solutions/devops/devops-culture-learning-culture&quot; target=&quot;_blank&quot;&gt; Learning Culture &lt;/a&gt;，有興趣就自行參考一下～&lt;/p&gt;
+&lt;p&gt;另外，如Spotify的分會（Chapter）及工會（Guild）型的架構組織來讓公司內部能更有效率地學習、傳遞知識及實踐工法也蠻值得去嘗試看看。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Spotify_guild-858ce549e6e2407e7d2a2d58c3664ee7-11616.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 752px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.26595744680851%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsTAAALEwEAmpwYAAACmUlEQVQoz01S2ZLiOBD0//9Lf8E+7HLT2IwNNviSZMmnJMvm8AkN9FYzMRubDxkVlVmHDu37D17P5/P1eo73waaDiQdcDHY0eMkYZqNDB4fe2v75/fr+HzQoeTwer9frfL7YjuO7XpOIBqdtWbd73Ceil3WfykvCCcK7vX06ncB8v9+BtbZt4ySuhCwRFpgIEqkkVXF8Pte3rPw6N7xWolbnLFOUCoQlJorGEuN+HH6KAU3TFHleCqlkKbkQWXHpus5jPVfXru37XvIfSQnx28M5h+FaPwywfTOMbpKiguOCh1kRZLnsu2GPu0Q83sdDOUdcBDTzcBLmPOTidrtpqYyJxE6BZshZU3+22/2zMqZ7a1fRq+G2AcM1RRJ/MndqWZOlPgV1a66Zm1aF1rTXx/OenZSBgy0KVxvbML3lwjrmaTcxL38ZZ9g5l1vLXW8OuuXqprvU7X1M1KXWRCWKc+4LOvP2f8830/V2ru+mG3NrH+LlIVu6KMDIQyt9N9uYc92afZqTzfYzcvOT0MpTqdoSyXjhO7OtNdfN+cacrH7t7KNvhsiJGGGERAvDnHxuZ/qvhW4tDrZO/eJU/rmwfgyTguSSFBLnYr8jMeJjN4zjCL8ADNE7jwsBBpRxmkvQfp4KtHYYg7SgXDFZMaGoVNW1uY0jPNLX1xcYmCgjUTJegsqkYqUab6M2DAO8WFmdfMICmuA4c8PoEBLCUsiDerlcYICLIhdHHqY+iYEPAb5er5phGP4b7vHIGKuqCrJQANy9cX0D6iENf7Oua/BAkCSJ9vHxMZlMFosF8Hq9Xq1WQRD8bnc8Hj3PgwAyjuMQQoQQsAt0vN9veZ5rrutmWQYRdAKG4fEbEGCMoeC/WEoJ86ESGC4SzP8CwUgjimFlv6UAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Spotify guild&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Spotify_guild-858ce549e6e2407e7d2a2d58c3664ee7-11616.png&quot;
+        srcset=&quot;/static/Spotify_guild-858ce549e6e2407e7d2a2d58c3664ee7-1ac4a.png 200w,
+/static/Spotify_guild-858ce549e6e2407e7d2a2d58c3664ee7-09170.png 400w,
+/static/Spotify_guild-858ce549e6e2407e7d2a2d58c3664ee7-11616.png 752w&quot;
+        sizes=&quot;(max-width: 752px) 100vw, 752px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h4&gt;心理的安全（Psychological Safety）：&lt;/h4&gt;
+&lt;p&gt;面對日益複雜系統，出現問題是不可避免的，我們要做的是快速發現和解決問題，相反地指責只會導至恐俱文化，如此問題可能被隱藏直到災難的發生。另外從Google studies[3] 及 The Westrum organizational culture[4] 裡面都提到心理安全的文化對於建立一個有效率的團隊和創意是至關重要的！&lt;/p&gt;
+&lt;p&gt;總結一下，對於競爭優勢就如同 Dave West[5]所提及的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Peter Senge 在其著作《The Fifth Discipline - The Art &amp;#x26; Practice Of The Learning
+Organization》中描述了組織專注於學習的必要性。
+ 「唯一可持續的競爭優勢是一個組織比競爭者更快速地學習的能力」。
+ 最終，通過專注於敏捷領導力、自組織、以客戶結果為中心、消除浪費以及瞭解組織文化並頻繁交付這 5 項挑戰，
+ 組織將變得更加專注於學習並變得更加敏捷。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;效率&lt;/h3&gt;
+&lt;p&gt;Nokia Story…&lt;/p&gt;
+&lt;p&gt;再深再廣的護城河，只要別人的效率是你的兩倍、五倍甚至十倍，那麼護城河也很快就會有被填滿的一天…。
+是的，就像 DevOps Handbooks 所提，&lt;mark&gt;『改善日常工作甚至比進行日常工作更重要』&lt;/mark&gt;，而且要及早做，而非放到最後，層層堆疊，想改也改不動。
+方法就是用 3% ~ 5% 的開發人力或是至少20%的時間週期用於持續改善的活動，這當中就包含了&lt;strong&gt;有意識地（consciously）&lt;/strong&gt; 償還技術債及推動技術與架構的現代化。 架構使團隊能够獨立開發、测試及向客户部署價值，減少跨團隊的協作與耦合，其中微服務間能有各自軟體的交付週期便是其中一例！&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;↓↓↓ 請仔細讀讀下面這圖的文句 ↓↓↓&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/devops_satya_nadella-31ae4bc2260fad7da9c389f4b7b13953-7eace.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 46.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAABYlAAAWJQFJUiTwAAABi0lEQVQoz11RO0zCYBDu7GMy7oaoCTA4sLG6sDgbZ6MOmrD6SAjR0TgaMSCJgxiVMCuTk2LCpokLIo8+eLel0P9vaalf+QkhJl+ud3/vu/vujqPGYALDcqZDoMqLlaogijU45QpfqlThS7V6s9XWicGxJHNgU0I6NYkQg5rWhNxsdRrNdqstM1vHp6P0+kQnlFCTGzEtRdPfUjHr81UTSsQYk/EbqWgCGuPXGy1ZURVVYwkcMoaOU/z5PdraeL+PfWczlJqTzl2t19X6gNrtyUpXhadTyAQM03LJlu1gsIvwdu7mXPnKgYMMargleEEqV6q8O7ko1RrCaHiMzMS7sm0bvZ3jg730aVgXCsS0EaL2WHazDTKquGRBAhk7w7s788AaFgrFaCSyGQrlH5K3V/H93Z3MU1qWVaYNQBOtp8NCEYO7YMycfX7xL3sW5mYydxlTM68v4wGfd211JZlIoP9I/4CVMNwrMDveCHcWjS7Oz3o9S/mPPLIfU6n1YDDg950cHiLEMf9dfhp/51bVKapGpKAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Make the change while you can&quot;
+        title=&quot;&quot;
+        src=&quot;/static/devops_satya_nadella-31ae4bc2260fad7da9c389f4b7b13953-48538.png&quot;
+        srcset=&quot;/static/devops_satya_nadella-31ae4bc2260fad7da9c389f4b7b13953-bed0f.png 200w,
+/static/devops_satya_nadella-31ae4bc2260fad7da9c389f4b7b13953-5fd34.png 400w,
+/static/devops_satya_nadella-31ae4bc2260fad7da9c389f4b7b13953-48538.png 800w,
+/static/devops_satya_nadella-31ae4bc2260fad7da9c389f4b7b13953-b70ec.png 1200w,
+/static/devops_satya_nadella-31ae4bc2260fad7da9c389f4b7b13953-d134a.png 1600w,
+/static/devops_satya_nadella-31ae4bc2260fad7da9c389f4b7b13953-7eace.png 2000w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;當然，這邊講到的效率提升是奠基在一樣或更好的品質上，你不會為了讓生產力增加十倍而犧牲了品質！對於效率與品質從來就不會是只要求做到七十分就好，而是採用持續改善的方式不斷向上提升，永遠都有進步的空間 &lt;a href=&quot;https://en.wikipedia.org/wiki/Toyota_Kata#The_Improvement_Kata&quot; target=&quot;_blank&quot;&gt;(Toyota Kata)&lt;/a&gt;。 是的，改善工作永遠沒有結束的一天，而在這個快速變動的行業裡，大家早就應該了解到，沒有改變的風險跟改變本身的風險是一樣高的！&lt;/p&gt;
+&lt;h2&gt;如何開始&lt;/h2&gt;
+&lt;p&gt;實踐方法除了Agile 的 mindset, Scrum process 或是 DevOps Handbooks 中提到的三步工法等，但這些網路上已經有太多好文在講述其中的概念，&lt;mark&gt;所以我更想用技術方面的實作來闡述所需相關的能力&lt;/mark&gt;。這些數位化的改革中，工作模式改變最大的就非QA莫屬了，所以從如何 “Align QA jobs to DevOps” 的角度來看，其實更能看出開發團隊要在何處施力才更能達到DevOps的境界。&lt;/p&gt;
+&lt;p&gt;那為何說 QA 的工作方式有最大的改變呢？ 因為在非 Continuous Delivery 的交付模式中，一定會有幾天的 code freeze，這段時間就是拿來讓 QA 做整合測試的時間，也唯有 QA sign off 的交付才能被佈署至生產線。
+想想如果要做到每天一次或多次生產線的交付，那麼生產的流水線當中，其實已經沒有 QA 能手動測式的空檔了… 所以這些 QA的角色可能會消失，但有關質量的工作事項卻只會更多且散落在各個開發的週期中（詳見『測試在 DevOps 中的樣子』章節），也正是所謂的測試左移或右移。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Shfit_left_right-98d0a7eddd1a77320ffd4e677f6b663c-a1901.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 89.2485549132948%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADXklEQVQ4y3VSa6sbVRSd3+Yv8C8UWxGrCEUQKxdFwQ+iIlq/KFKbG1uK2Da28T5yb3Lv5Obmncxk8pj3ZM68Mu9HJo9J5uFJRLClLhaLfTZ7HThnbQTDMBStYRjR6+GtVrfR6MC60+k2m83BYGBZlmEYpmkae5h7aJoG+1mWISiKViqFWq3YaBxXq8/Pz/9ot0+q1fL5eblerydJstlsttttHMdQ/6mhwot2Zp5jLKMogRyQfhPFPJAeiuCBogwkWeN5DoJhGJqmp9MpVIqioAIAdF3fmQ1vqViR4USLIF3OM6hhEAfeahFsQn/pvQx/D9u25/P5zlxTLn+ncmXxxXD2nJg9G2iFiX5KmmVcfco6fTiRZslOXmKWpmmSJkiHu1fsv3U5/vQv7L0/+7dORx9Umc9r7Jcno9tXwuFuLkn2868BIgGVJFmSpBmKdyzfNn3TsFzX02cWMN00zYYkhg1b+LitmEPdI02fs3xec8ZuKCNAHZN8fapgVsBYAUVPW7zUE2RMkHuiJ0ZRctz7uNh7t0R8eEzcLGK3yqNPKsODF/0bGPgJwScXR5VcmyhKVhtY9RL6sFx7DFnvPwUBG0VbXiBZYSQprO3KDEcw3GhCYepM2CYh4via7UneXJ0vdX+hyhotz2hlxoYrXQmMdbQhuTbJX1NCE+j9qdoTNVyc4bJBzNcK4rmB587hC13bD4MlMRj1exg1YeJNaoTLKNoQxBjHCNhfLEIYluNAepbpwiOiGpSg9MyA9mNJ98Zjvk6BzoiDv9CRPHG1WpN0a8LWSa6l2WOg4ZI+mqoDK2DnKxXRLIFThrpFa+Mr02N58pInUG5YM+fCLHaiKNYCRTZp1WBNVwDqRNYoUZ5Y3jRcWQjMGyaWWLb/3ffZwokJIso9WeWfbS66BjE1CbBsU9lyle0349WcCwL4qj/8+aySLxQPK2huhP9AMd/Q4uDrt7XP3hS/fWf20Ru1x4WTM6p0hFXOhpClY/z0CL+uksiPQ/IG2rzTwg6w8d0ucbczuF1r36x222dfbC7u2BcHTun9Qr6Qu9/I30cfHV4/Oqznf7168AtaeNJGXrt3cZIlaeZuMiHMlHUWJf+znnGabtM0/pdJmq7jBLhb4EQwKS9cy/ZacraGv012SP/LvwH3rqoXvx9WGgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Shfit left &amp; right in DevOps&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Shfit_left_right-98d0a7eddd1a77320ffd4e677f6b663c-48538.png&quot;
+        srcset=&quot;/static/Shfit_left_right-98d0a7eddd1a77320ffd4e677f6b663c-bed0f.png 200w,
+/static/Shfit_left_right-98d0a7eddd1a77320ffd4e677f6b663c-5fd34.png 400w,
+/static/Shfit_left_right-98d0a7eddd1a77320ffd4e677f6b663c-48538.png 800w,
+/static/Shfit_left_right-98d0a7eddd1a77320ffd4e677f6b663c-a1901.png 865w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;再接下去的幾個章節中，會對這些實踐做更多的闡述或實作方法（很多方法其實跟你想的不一樣），包括有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;測試在 DevOps中的樣子&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;持續集成（Continuous Integration）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;單主幹開發（Trunk-based Development &amp;#x26; Feature Toggles）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;測試左移（在開發階段之前定義好測試以及將整合測試提前執行）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;實例化需求（Specification by Examples）&lt;/li&gt;
+&lt;li&gt;測試自動化（Fast Test Automation）&lt;/li&gt;
+&lt;li&gt;API 測試？ 想想 Consumer Driven Contract Testing&lt;/li&gt;
+&lt;li&gt;想更快？ 先做好 Test Isolation&lt;/li&gt;
+&lt;li&gt;自動化測試戰略與工具（Strategy &amp;#x26; Tools）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;測試右移（在生產環境中監控，並且實時穫取用户反饋）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Low Risk Deployment（低風險部署）&lt;/li&gt;
+&lt;li&gt;Testing in Production（在生產環境做測試）&lt;/li&gt;
+&lt;li&gt;Application Observability（O11y，程式的可觀察性）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;待續，持續更新中 …&lt;/p&gt;
+&lt;h2&gt;Reference&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a name=&quot;ref1&quot;&gt;&lt;/a&gt;Stack History: &lt;a href=&quot;https://stackshare.io/stack-history-timeline-uber-tech-stack-evolution&quot;&gt;A Timeline of Uber’s Tech Stack Evolution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Developing Gmail’s New Look — &lt;a href=&quot;https://medium.com/@thysniu/feature-flags-release-small-and-often-simplify-workflow-19d92fe0c2a5&quot;&gt;Google Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://diversity.lbl.gov/2019/05/13/the-quest-to-build-the-most-effective-teams/&quot;&gt;Google studies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.google.com/solutions/devops/devops-culture-westrum-organizational-culture&quot;&gt;Westrum organizational culture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dave West. &lt;a href=&quot;https://www.infoq.cn/article/managing-next-century-agile/&quot;&gt;Managing next century agile.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://techcrunch.com/2018/12/07/ibm-selling-lotus-notes-domino-business-to-hcl-for-1-8b/&quot;&gt;IBM selling Lotus Notes/Domino business to HCL&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Culture is how we think, what habits we create and what we do when we’re interacting with each other every day.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item></channel></rss>

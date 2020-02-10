@@ -1,0 +1,76 @@
+{
+  "assetsByChunkName": {
+    "path---devops-why-n-how": [
+      "path---devops-why-n-how-b08e688033cfdc6c2d1a.js",
+      "path---devops-why-n-how-b08e688033cfdc6c2d1a.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-aa9570313651ef926b5a.js",
+      "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
+    ],
+    "path---": [
+      "path----32415d73fdd4d954e233.js",
+      "path----32415d73fdd4d954e233.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-fdb003b8f49e23834e8b.js",
+      "component---src-pages-contact-js-fdb003b8f49e23834e8b.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-c672626361c954657468.js",
+      "component---src-layouts-index-js-c672626361c954657468.js.map"
+    ],
+    "path---index": [
+      "path---index-4a4a95e3d3024fdee9db.js",
+      "path---index-4a4a95e3d3024fdee9db.js.map"
+    ],
+    "component---src-pages-search-js": [
+      "component---src-pages-search-js-7d4584d3b6c9b411effb.js",
+      "component---src-pages-search-js-7d4584d3b6c9b411effb.js.map"
+    ],
+    "commons": [
+      "commons-3b7771db6beee8991e5e.js",
+      "build-js-styles.css",
+      "commons-3b7771db6beee8991e5e.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---success": [
+      "path---success-084e22b6c6e7ee6c6340.js",
+      "path---success-084e22b6c6e7ee6c6340.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-templates-post-template-js": [
+      "component---src-templates-post-template-js-3f8ea86b2cc5debe89b0.js",
+      "component---src-templates-post-template-js-3f8ea86b2cc5debe89b0.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-723203c7480fc94ffdae.js",
+      "build-js-styles.css",
+      "app-723203c7480fc94ffdae.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-templates-page-template-js": [
+      "component---src-templates-page-template-js-e0434750f574a9276ef2.js",
+      "component---src-templates-page-template-js-e0434750f574a9276ef2.js.map"
+    ],
+    "path---search": [
+      "path---search-84269fabafea3eec14cf.js",
+      "path---search-84269fabafea3eec14cf.js.map"
+    ],
+    "path---about": [
+      "path---about-83e43c95b5f2ffb15ca2.js",
+      "path---about-83e43c95b5f2ffb15ca2.js.map"
+    ]
+  }
+}
