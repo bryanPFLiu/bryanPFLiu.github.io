@@ -1,16 +1,20 @@
 {
   "assetsByChunkName": {
     "path---devops-why-n-how": [
-      "path---devops-why-n-how-55ef0d04a8c752cde1d8.js",
-      "path---devops-why-n-how-55ef0d04a8c752cde1d8.js.map"
+      "path---devops-why-n-how-fe77c823acade420213d.js",
+      "path---devops-why-n-how-fe77c823acade420213d.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----58b171a30e0598671660.js",
-      "path----58b171a30e0598671660.js.map"
+      "path----9083437e005ee3e3807e.js",
+      "path----9083437e005ee3e3807e.js.map"
+    ],
+    "path---embeded-speakerdeck-gatsby": [
+      "path---embeded-speakerdeck-gatsby-f1b48a0ffec4dd9cc36a.js",
+      "path---embeded-speakerdeck-gatsby-f1b48a0ffec4dd9cc36a.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-fdb003b8f49e23834e8b.js",
@@ -21,21 +25,21 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-865c5b2e00dd120488ee.js",
-      "component---src-layouts-index-js-865c5b2e00dd120488ee.js.map"
+      "component---src-layouts-index-js-52bd6de92b4e8eeabc5b.js",
+      "component---src-layouts-index-js-52bd6de92b4e8eeabc5b.js.map"
     ],
     "path---index": [
       "path---index-4a4a95e3d3024fdee9db.js",
       "path---index-4a4a95e3d3024fdee9db.js.map"
     ],
     "component---src-pages-search-js": [
-      "component---src-pages-search-js-7d4584d3b6c9b411effb.js",
-      "component---src-pages-search-js-7d4584d3b6c9b411effb.js.map"
+      "component---src-pages-search-js-9558dabea8eeb1a5c7a1.js",
+      "component---src-pages-search-js-9558dabea8eeb1a5c7a1.js.map"
     ],
     "commons": [
-      "commons-3b7771db6beee8991e5e.js",
+      "commons-439ff84e7d8e6d3d7427.js",
       "build-js-styles.css",
-      "commons-3b7771db6beee8991e5e.js.map",
+      "commons-439ff84e7d8e6d3d7427.js.map",
       "build-js-styles.css.map"
     ],
     "path---success": [
@@ -55,9 +59,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-3a0d9baffb56a918e295.js",
+      "app-56602c441899a907ae36.js",
       "build-js-styles.css",
-      "app-3a0d9baffb56a918e295.js.map",
+      "app-56602c441899a907ae36.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
