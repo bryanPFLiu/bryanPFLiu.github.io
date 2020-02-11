@@ -4520,11 +4520,12 @@ gatsby-module-loader@^1.0.11:
     babel-runtime "^6.26.0"
     loader-utils "^0.2.16"
 
-gatsby-plugin-algolia@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia/-/gatsby-plugin-algolia-0.0.4.tgz#d391cd4e61645ceb0808ee24dd5448a645dd2d3b"
+gatsby-plugin-algolia@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia/-/gatsby-plugin-algolia-0.5.0.tgz#a2bc40113f670f9d3bafc8dc50c5905e656e70d1"
   dependencies:
     algoliasearch "^3.24.5"
+    gatsby-cli "^1.1.58"
     lodash.chunk "^4.2.0"
 
 gatsby-plugin-catch-links@^1.0.24:

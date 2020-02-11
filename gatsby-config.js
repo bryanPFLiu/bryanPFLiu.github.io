@@ -93,6 +93,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
+              plugins: [`gatsby-remark-responsive-iframe`],
               wrapperStyle: `margin-bottom: 2em`
             }
           },
