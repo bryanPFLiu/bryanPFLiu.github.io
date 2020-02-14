@@ -9,7 +9,7 @@ There are many ways to embeded different media type contents in Gatsby, here is 
 
 Step 1. Install gatsby-remark-responsive-iframe official plugin
 
-  Check [here](https://www.gatsbyjs.org/packages/gatsby-remark-responsive-iframe/) for instruction.
+Check [here](https://www.gatsbyjs.org/packages/gatsby-remark-responsive-iframe/) for instruction.
 
 Step 2. Get url of your Speakerdeck slide which you want to share
 
