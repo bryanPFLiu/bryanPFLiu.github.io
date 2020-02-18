@@ -25,7 +25,7 @@ DevOps 有太多的定義比如：<a href="https://zh.wikipedia.org/wiki/DevOps"
 
 ### 企業文化
 
-![](https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_9.jpg)
+<img src="https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_9.jpg" alt="culture_explain" width="100%" height="100%"><br>
 
 文化將策略當早餐吃掉了（指的是一個企業的文化，將左右其營運管理上的策略。），而快速變化的今天，沒人能預測未來將面臨的所有挑戰，而文化就會像一盞燈指引你走出這些黑暗的隧道。 就像亞馬遜所說：『在客戶體驗方面，我們已經設置了非常高的門檻，並且有著異乎尋常的不斷改進的緊迫感。』因此，『我們要基於長遠創造更好的客戶體驗』、『持續改善以強化其心血。』。
 
@@ -33,12 +33,12 @@ DevOps 有太多的定義比如：<a href="https://zh.wikipedia.org/wiki/DevOps"
 
 > 文化沒有對錯，但卻是讓一家公司在其認知的價值上深耕並做出差異化的必要手段。
 
-![](https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_8.jpg)
+<img src="https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_8.jpg" alt="culture_matters_fremont" width="100%" height="100%"><br>
 
 文化的重要性，這邊再說個故事：
 1982年，美國的GM（General Motors）公司把位於加州的弗里蒙特工廠給關閉了，原因是長期的抗爭、罷工以及所產出車輛的質量是所有工廠裡面最差的，車子出了生產線還得另外用車子拖走，經常少了零件或者跟本無法發動。 1984當時的 Toyata 精實製造正席捲美國汽車業，GM 跟 Toyata 合資了一家子公司 NUMMI[[3]](#ref3) 然後重啟了工廠，由 GM 負責市場與銷售，Toyata負責車輛的設計製造及工廠的運維，並且 GM 同時派了許多員工至日本工廠學習以回來改進 NUMMI 的生產線。 一直到1995年的JD Power survey中，美國所販售十輛質量最好的車中，只有兩輛是美國製造，而其中一輛便是 NUMMI 所生產的 Geo Prizm。 這故事說的是同一車廠、同一批員工在不同的文化管理與流程下所表現出來的結果卻是截然不同的！ Netflix 也有類似的故事， Netflix 的雲架構師 Adrian Cockcroft 有次被其它 Fortune 500 公司的資深經理人問『 Netflix 到底是從何處招募來這些明星級的工程師？』， 而 Cockcroft 也就回答 "I hired them from you!"
 
-![](https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_10.jpg)
+<img src="https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_10.jpg" alt="spotify_guilds" width="100%" height="100%"><br>
 
 之於開發團隊，這些著名IT公司的文化中，不外乎一定有的像是：efficiency, risk taking, high performance, seeking excellence...，而這些不就是整個 DevOps 所一直在強調的事嗎？講到 DevOps 有關組織文化的部份，通常就會提到組織學習和安全文化：
 
@@ -73,16 +73,15 @@ DevOps 有太多的定義比如：<a href="https://zh.wikipedia.org/wiki/DevOps"
 
 ### 效率
 
-![](https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_5.jpg)
+<img src="https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_5.jpg" alt="nokia_symbian" width="100%" height="100%"><br>
 
 Nokia 在2013年將手機業務賣給了 Microsoft，背後的因素除了太慢進入智慧型手機外，開發效率也是其中原因之一。2010年當其董事會主席Risto Siilasmaa 視察公司時發現， Symbian 作業系統建製一次需要48小時，當時的他猶如當頭棒喝，但內部一直有這淘汰 Symbian 的建議也一直沒被管理層所採納...。
 建製時間要48小時，也就代表開發人員要兩天後才能知道提交的代碼是否有問題，這樣的迭代速度就算再加一倍的人力，可能也改變不了現況，更何況它所面對的是像 Google 這樣有效率的公司。 Google 或 Amazon 從2003年起的那些 Test automation 及 Continuous integration 的轉變， Nokia 應該也是完全沒跟上。
 
-所以再深再廣的護城河，只要別人的效率是你的兩倍、五倍甚至十倍，那麼護城河也很快就會有被填滿的一天。
-是的，就像 DevOps Handbooks 所提，<mark>『改善日常工作甚至比進行日常工作更重要』</mark>，而且要及早做，而非放到最後，層層堆疊，想改也改不動。
-方法就是用 3% ~ 5% 的開發人力或是至少20%的時間週期用於持續改善的活動，這當中就包含了 **有意識地（consciously）** 償還技術債及推動技術與架構的現代化。 架構要使團隊能够獨立開發、测試及向客户部署價值，減少跨團隊的協作與耦合，其中微服務（Microservices）間能有各自的軟體的交付週期（release cycle）便是其中一例！
+<img src="https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_6.jpg" alt="productivity_satya" width="100%" height="100%"><br>
 
-![](https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_6.jpg)
+所以再深再廣的護城河，只要別人的效率是你的兩倍、五倍甚至十倍，那麼護城河也很快就會有被填滿的一天。 是的，就像 DevOps Handbooks 所提，<mark>『改善日常工作甚至比進行日常工作更重要』</mark>，而且要及早做，而非放到最後，層層堆疊，想改也改不動。
+方法就是用 3% ~ 5% 的開發人力或是至少20%的時間週期用於持續改善的活動，這當中就包含了 **有意識地（consciously）** 償還技術債及推動技術與架構的現代化。 架構要使團隊能够獨立開發、测試及向客户部署價值，減少跨團隊的協作與耦合，其中微服務（Microservices）間能有各自的軟體的交付週期（release cycle）便是其中一例！
 
 當然，這邊講到的效率提升是奠基在一樣或更好的品質上，你不會為了讓生產力增加十倍而犧牲了品質！對於效率與品質從來就不會是只要求做到七十分就好，而是採用持續改善的方式不斷向上提升，永遠都有進步的空間 <a href="https://en.wikipedia.org/wiki/Toyota_Kata#The_Improvement_Kata" target="_blank">(Toyota Kata)</a>。 是的，改善工作永遠沒有結束的一天，而在這個快速變動的行業裡，大家早就應該了解到，沒有改變的風險跟改變本身的風險是一樣高的！
 
@@ -90,15 +89,15 @@ Nokia 在2013年將手機業務賣給了 Microsoft，背後的因素除了太慢
 
 實踐方法除了Agile 的 mindset, Scrum process 或是 DevOps Handbooks 中提到的三步工法等，但這些網路上已經有太多好文在講述其中的概念，<mark>所以我更想用技術方面的實作來闡述所需相關的能力</mark>。這些數位化的改革中，擁抱改變是必要的，因為每個人的工作模式多多少少都需要改變，比如說開發人員除了單元測試外也必需負責 "Acceptance Test" 的自動化創建與維護，以達到快速回饋與避免類似 "Waterfall pipeline" 的反模式產生（如下圖），這將會在『持續集成』的章節再詳述。
 
-![](https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_14.jpg)
+<img src="https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_14.jpg" alt="change_for_RD" width="100%" height="100%"><br>
 
 對 QA 來說， 在非 Continuous Delivery 的交付模式中，一定會有幾天的 code freeze，這段時間就是拿來讓 QA 做整合測試的時間，也唯有 QA sign off 的交付才能被佈署至生產線。 但想想如果要做到每天一次或多次生產線的交付，那麼生產的流水線當中，其實已經沒有 QA 能手動測式的空檔了... 所以這些 QA的角色可能會消失，但有關質量的工作事項卻只會更多且散落在各個團隊成員及開發週期中（詳見『測試在 DevOps 中的樣子』章節），也正是所謂的測試左移或右移，所以 QA 人員反而要回去熟練探索性測試的那些方法及如何設計測試案例來驗證跟監控生產線上的狀況。
 
-![](https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_15.jpg)
+<img src="https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_15.jpg" alt="change_for_qa" width="100%" height="100%"><br>
 
 最後，對運維人員來說，他所要熟悉的工具與部署環境也都是跟原本的 system admin 是完全不同的光譜，更何況還要懂得去幫助整個功能團隊一起合作開發出好運維跟可監控的程序，也難怪好的 SRE 這麼難找。
 
-![](https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_16.jpg)
+<img src="https://speakerd.s3.amazonaws.com/presentations/cf04f08b30f54c41ad76d0b180effd0b/slide_16.jpg" alt="change_for_ops" width="100%" height="100%"><br>
 
 再接下去的幾個章節中，會對這些實踐做更多的闡述或實作方法（很多方法其實跟你想的不一樣），包括有：
 
